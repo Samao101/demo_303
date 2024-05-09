@@ -1,0 +1,72 @@
+[
+    {
+        "courseId": "CS101",
+        "courseName": "Introduction to Computer Science",
+        "classDays": ["MONDAY"],
+        "maxRegistPerRegist": 120,
+        "maxStuPerClass": 40
+    },
+    {
+        "courseId": "CS102",
+        "courseName": "Data Structures",
+        "classDays": ["TUESDAY"],
+        "maxRegistPerRegist": 120,
+        "maxStuPerClass": 40
+    },
+    {
+        "courseId": "CS103",
+        "courseName": "Algorithms",
+        "classDays": ["FRIDAY"],
+        "maxRegistPerRegist": 120,
+        "maxStuPerClass": 40
+    },
+    {
+        "courseId": "CS104",
+        "courseName": "Computer Organization",
+        "classDays": ["WEDNESDAY"],
+        "maxRegistPerRegist": 120,
+        "maxStuPerClass": 40
+    },
+    {
+        "courseId": "CS105",
+        "courseName": "Operating Systems",
+        "classDays": ["THURSDAY"],
+        "maxRegistPerRegist": 120,
+        "maxStuPerClass": 40
+    },
+    {
+        "courseId": "CS201",
+        "courseName": "Computer Networks",
+        "classDays": ["WEDNESDAY"],
+        "maxRegistPerRegist": 120,
+        "maxStuPerClass": 40
+    },
+    {
+        "courseId": "CS202",
+        "courseName": "Databases",
+        "classDays": ["TUESDAY"],
+        "maxRegistPerRegist": 120,
+        "maxStuPerClass": 40
+    },
+    {
+        "courseId": "CS203",
+        "courseName": "Web Development",
+        "classDays": ["WEDNESDAY"],
+        "maxRegistPerRegist": 120,
+        "maxStuPerClass": 40
+    },
+    {
+        "courseId": "CS204",
+        "courseName": "Software Engineering",
+        "classDays": ["THURSDAY"],
+        "maxRegistPerRegist": 120,
+        "maxStuPerClass": 40
+    },
+    {
+        "courseId": "CS205",
+        "courseName": "Artificial Intelligence",
+        "classDays": ["MONDAY"],
+        "maxRegistPerRegist": 120,
+        "maxStuPerClass": 40
+    }
+]
