@@ -82,6 +82,16 @@ public class CourseToRegistrationController {
         }
     }
 
+    // Kiểm tra xem đã tạo phiếu đăng ký chưa
+    @GetMapping("/check")
+    public ResponseEntity<ResponseObject> check() {
+        if (courseToRegistrationService.checkRegistration()) {
+            return ResponseEntity.ok(new ResponseObject("success", "Registration is available", null));
+        } else {
+            return ResponseEntity.ok(new ResponseObject("success", "Registration is not available", null));
+        }
+    }
+
     //Dungf de lay phieu dang ky dua tren course id vaf course level
     @GetMapping("/by-course-and-level")
     public ResponseEntity<ResponseObject> findByCourseIdAndLevel(

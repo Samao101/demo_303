@@ -195,6 +195,15 @@ public class CourseClassController {
     // 2: Check xem có đủ giáo viên cho tất cả các lớp không ở CourseToRegistrationController
     // 3: Mở lớp cho tất cả học sinh dựa trên phiếu đăng ký ở CourseToRegistrationController
     // 4: Chính thức tất cả các lớp inProgres ở CouresClassController
+    @GetMapping("/check")
+    public ResponseEntity<ResponseObject> check() {
+        if (courseClassService.check()) {
+            return ResponseEntity.ok(new ResponseObject("success", "All course classes are ready to start new semester", null));
+        } else {
+            return ResponseEntity.badRequest().body(new ResponseObject("error", "Not all course classes are ready to start new semester", null));
+        }
+    }
+
     @GetMapping("/start-new-semester")
     public ResponseEntity<ResponseObject> startNewSemester() {
         try {

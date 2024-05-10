@@ -323,5 +323,10 @@ public class CourseToRegistrationService {
         
         return cur;
     }
+
+    public boolean checkRegistration() {
+        Set<CourseToRegistration> courseToRegistrations = courseToRegistrationRepository.findAlls();
+        return (courseToRegistrations.size() != 0);
+    }
 }
 

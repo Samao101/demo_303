@@ -244,5 +244,10 @@ public class CourseClassService {
         return teacherRepository.findById(courseClass.getTeacherId())
                 .orElseThrow(() -> new IllegalArgumentException("Teacher not found with id: " + courseClass.getTeacherId()));
     }
+
+    public boolean check() {
+        Set<CourseClass> courseClasses = courseClassRepository.findByCourseClassStatus(CourseClassStatus.inProgress);
+        return (courseClasses.size() != 0);
+    }
     
 }
