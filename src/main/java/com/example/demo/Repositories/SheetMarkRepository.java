@@ -40,4 +40,7 @@ public interface SheetMarkRepository extends JpaRepository<SheetMark, Long>{
     Set<SheetMark> findByStudentIdAndCourseIdAndCourseLevelAndSheetMarkStatus(Long studentId, String courseId, CourseLevel courseLevel, SheetMarkStatus sheetMarkStatus);
 
     Set<SheetMark> findByCourseId(String courseId);
+
+    Set<SheetMark> findByCourseIdAndStudentIdAndSheetMarkStatus(String courseId, Long studentId,
+            SheetMarkStatus sheetMarkStatus);
 }

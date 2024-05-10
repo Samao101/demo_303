@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.models.DTOs.AllSheetMarkOfCourse;
 import com.example.demo.models.DTOs.SheetMarkDto;
 import com.example.demo.models.DTOs.converter.SheetMarkDtoConverter;
 import com.example.demo.models.DTOs.request.SheetMark.CreateSheetMark;
@@ -69,6 +70,12 @@ public class SheetMarkController {
         return ResponseEntity.ok(new ResponseObject("success", "Retrieved sheet marks for teacher", sheetMarks));
     }
 
+    @GetMapping("/course")
+    public ResponseEntity<ResponseObject> getSheetMarksForOneCourseForOneStudent(@RequestParam Long studentId, @RequestParam String courseId) {
+        AllSheetMarkOfCourse allSheetMarkOfCourse = sheetMarkService.getAllSheetMarkOfCourseByStudentId(courseId, studentId);
+        return ResponseEntity.ok(new ResponseObject("success", "Retrieved sheet marks for student in course", allSheetMarkOfCourse));
+    }
+
     @PostMapping
     public ResponseEntity<ResponseObject> createSheetMark(@RequestBody CreateSheetMark createRequest) {
         try {
@@ -105,7 +112,7 @@ public class SheetMarkController {
         }
     }
 
-    
+
     @DeleteMapping("/{sheetMarkId}")
     public ResponseEntity<ResponseObject> deleteSheetMark(@PathVariable Long sheetMarkId) {
         try {

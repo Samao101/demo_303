@@ -9,6 +9,9 @@ import com.example.demo.Repositories.CourseRepository;
 import com.example.demo.Repositories.SheetMarkRepository;
 import com.example.demo.Repositories.StudentRepository;
 import com.example.demo.Repositories.TeacherRepository;
+import com.example.demo.models.DTOs.AllSheetMarkOfCourse;
+import com.example.demo.models.DTOs.SheetMarkDto;
+import com.example.demo.models.DTOs.converter.SheetMarkDtoConverter;
 import com.example.demo.models.DTOs.request.SheetMark.CreateSheetMark;
 import com.example.demo.models.DTOs.request.SheetMark.UpdateSheetMark;
 import com.example.demo.models.entity.Course;
@@ -23,6 +26,7 @@ import jakarta.transaction.Transactional;
 
 @Service
 public class SheetMarkService {
+    private final SheetMarkDtoConverter sheetMarkDtoConverter;
     private final SheetMarkRepository sheetMarkRepository;
     private final StudentRepository studentRepository;
     private final CourseRepository courseRepository;
@@ -33,12 +37,14 @@ public class SheetMarkService {
                             TeacherRepository teacherRepository,
                             CourseRepository courseRepository,
                             SheetMarkRepository sheetMarkRepository, 
-                            StudentRepository studentRepository) {
+                            StudentRepository studentRepository,
+                            SheetMarkDtoConverter sheetMarkDtoConverter) {
         this.sheetMarkRepository = sheetMarkRepository;
         this.studentRepository = studentRepository;
         this.courseRepository = courseRepository;
         this.teacherRepository = teacherRepository;
         this.courseClassRepository = courseClassRepository;
+        this.sheetMarkDtoConverter = sheetMarkDtoConverter; 
     }
 
     // ALl method for get request
@@ -70,6 +76,55 @@ public class SheetMarkService {
         return sheetMarkRepository.findByCourseIdAndCourseLevelAndStudentId(courseId, courseLevel, studentId);
     }
 
+    public AllSheetMarkOfCourse getAllSheetMarkOfCourseByStudentId(String courseId, Long studentId) {
+        Student student = studentRepository.findById(studentId)
+                .orElseThrow(() -> new IllegalArgumentException("Student not found with id " + studentId));
+
+        Course course = courseRepository.findByCourseId(courseId)
+                .orElseThrow(() -> new IllegalArgumentException("Course not found with id " + courseId));
+
+        SheetMarkDto sheetMarkForBeginner = null;
+        SheetMarkDto sheetMarkForIntermediate = null;
+        SheetMarkDto sheetMarkForAdvanced = null;
+
+        AllSheetMarkOfCourse allSheetMarkOfCourse = new AllSheetMarkOfCourse(null, null, null);
+        for(CourseLevel courseLevel: CourseLevel.values()) {
+            Set<SheetMark> sheetMarks = sheetMarkRepository.findByCourseIdAndCourseLevelAndStudentId(courseId, courseLevel, studentId);
+            if(sheetMarks.isEmpty()) {
+                continue;
+            }
+            Double finalGrade= 0.0;
+            SheetMark curSheetMarkForCurLevel= null;
+            for(SheetMark sheetMark: sheetMarks) {
+                if(curSheetMarkForCurLevel == null) {
+                    curSheetMarkForCurLevel = sheetMark;
+                    finalGrade = sheetMark.getFinalGrade();
+                    continue;
+                }
+
+                if(sheetMark.getFinalGrade() == null) {
+                    continue;
+                }
+
+                if(sheetMark.getFinalGrade() > finalGrade) {
+                    finalGrade = sheetMark.getFinalGrade();
+                    curSheetMarkForCurLevel = sheetMark;
+                }
+            }
+
+            SheetMarkDto sheetMarkDto = sheetMarkDtoConverter.convert(curSheetMarkForCurLevel);
+            
+            if(courseLevel == CourseLevel.BEGINNER) {
+                sheetMarkForBeginner = sheetMarkDto;   
+            } else if(courseLevel == CourseLevel.INTERMEDIATE) {
+                sheetMarkForIntermediate = sheetMarkDto;
+            } else {
+                sheetMarkForAdvanced = sheetMarkDto;
+            }
+        }
+
+        return new AllSheetMarkOfCourse(sheetMarkForBeginner, sheetMarkForIntermediate, sheetMarkForAdvanced);
+    }
 
     // All method for post requeset
     public SheetMark createSheetMark(CreateSheetMark sheetMarkRequest) {
@@ -165,7 +220,7 @@ public class SheetMarkService {
         }
     }
 
-    
+
     // All method for delete request
     public void deleteCourse(Long sheetMarkId) {
         SheetMark sheetMark = sheetMarkRepository.findById(sheetMarkId)
