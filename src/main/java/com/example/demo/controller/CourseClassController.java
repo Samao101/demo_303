@@ -140,6 +140,13 @@ public class CourseClassController {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(new ResponseObject("failed", "Not found teacher of class with id: " + courseClassId, null));
         } 
     }
+
+    @GetMapping("/getClassOfTeacher")
+    public ResponseEntity<ResponseObject> getClassOfTeacher(@RequestParam Long teacherId) {
+        Set<CourseClassDto> dtos = courseClassDtoConverter.convert(courseClassService.getClassOfTeacher(teacherId));
+        if(dtos.size()==0 )  return ResponseEntity.status(404).body(new ResponseObject("Not_found", "No class for this teacher id: "+ teacherId, null));
+        return ResponseEntity.ok(new ResponseObject("success", "Course classes fetched successfully", dtos));
+    }
     
 
 //All Post Method

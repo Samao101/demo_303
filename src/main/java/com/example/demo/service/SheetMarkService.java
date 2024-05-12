@@ -151,48 +151,48 @@ public class SheetMarkService {
     } 
 
     // All method for put request
-    @Transactional
-    public SheetMark updateSheetMark(UpdateSheetMark sheetMarkRequest) {
-        SheetMark sheetMark = sheetMarkRepository.findById(sheetMarkRequest.getId())
-                .orElseThrow(() -> new RuntimeException("Course not found with id " + sheetMarkRequest.getId()));
+    // @Transactional
+    // public SheetMark updateSheetMark(UpdateSheetMark sheetMarkRequest) {
+    //     SheetMark sheetMark = sheetMarkRepository.findById(sheetMarkRequest.getId())
+    //             .orElseThrow(() -> new RuntimeException("Course not found with id " + sheetMarkRequest.getId()));
 
-        Course course= courseRepository.findByCourseId(sheetMarkRequest.getCouresId())
-                .orElseThrow(() -> new IllegalArgumentException("Course not found with id " + sheetMarkRequest.getCouresId()));
+    //     Course course= courseRepository.findByCourseId(sheetMarkRequest.getCouresId())
+    //             .orElseThrow(() -> new IllegalArgumentException("Course not found with id " + sheetMarkRequest.getCouresId()));
 
-        Student student = studentRepository.findById(sheetMarkRequest.getStudentId())
-                .orElseThrow(() -> new IllegalArgumentException("Student not found with id " + sheetMarkRequest.getStudentId()));
+    //     Student student = studentRepository.findById(sheetMarkRequest.getStudentId())
+    //             .orElseThrow(() -> new IllegalArgumentException("Student not found with id " + sheetMarkRequest.getStudentId()));
 
-        CourseClass courseClass = courseClassRepository.findById(sheetMarkRequest.getCourseClassId())
-                .orElseThrow(() -> new IllegalArgumentException("Course class not found with id " + sheetMarkRequest.getCourseClassId()));
+    //     CourseClass courseClass = courseClassRepository.findById(sheetMarkRequest.getCourseClassId())
+    //             .orElseThrow(() -> new IllegalArgumentException("Course class not found with id " + sheetMarkRequest.getCourseClassId()));
 
-        Teacher teacher = teacherRepository.findById(sheetMarkRequest.getTeacherId())
-                .orElseThrow(() -> new IllegalArgumentException("Teacher not found with id " + sheetMarkRequest.getTeacherId()));
+    //     Teacher teacher = teacherRepository.findById(sheetMarkRequest.getTeacherId())
+    //             .orElseThrow(() -> new IllegalArgumentException("Teacher not found with id " + sheetMarkRequest.getTeacherId()));
 
 
-        if(!course.getCourseId().equals(sheetMark.getCourseId())) {
-            throw new IllegalArgumentException("Course id of this sheet mark can not be change!!!");
-        }
+    //     if(!course.getCourseId().equals(sheetMark.getCourseId())) {
+    //         throw new IllegalArgumentException("Course id of this sheet mark can not be change!!!");
+    //     }
 
-        if(!student.getId().equals(sheetMark.getStudentId())) {
-            throw new IllegalArgumentException("Student id of this sheet mark can not be change!!!");
-        }
+    //     if(!student.getId().equals(sheetMark.getStudentId())) {
+    //         throw new IllegalArgumentException("Student id of this sheet mark can not be change!!!");
+    //     }
 
-        if(!courseClass.getId().equals(sheetMark.getCourseClassId())) {
-            throw new IllegalArgumentException("Course class id of this sheet mark can not be change!!!");
-        }
+    //     if(!courseClass.getId().equals(sheetMark.getCourseClassId())) {
+    //         throw new IllegalArgumentException("Course class id of this sheet mark can not be change!!!");
+    //     }
 
-        if(!teacher.getId().equals(sheetMark.getTeacherId())) {
-            throw new IllegalArgumentException("Teacher id of this sheet mark can not be change!!!");
-        }
+    //     if(!teacher.getId().equals(sheetMark.getTeacherId())) {
+    //         throw new IllegalArgumentException("Teacher id of this sheet mark can not be change!!!");
+    //     }
 
-        sheetMark.setAssignmentScore(sheetMarkRequest.getAssignmentScore());
-        sheetMark.setProjectScore(sheetMarkRequest.getProjectScore());
-        sheetMark.setMidTermScore(sheetMarkRequest.getMidTermScore());
-        sheetMark.setFinalExamScore(sheetMarkRequest.getFinalExamScore());
+    //     sheetMark.setAssignmentScore(sheetMarkRequest.getAssignmentScore());
+    //     sheetMark.setProjectScore(sheetMarkRequest.getProjectScore());
+    //     sheetMark.setMidTermScore(sheetMarkRequest.getMidTermScore());
+    //     sheetMark.setFinalExamScore(sheetMarkRequest.getFinalExamScore());
 
-        sheetMark.setSheetMarkStatus(sheetMarkRequest.getSheetMarkStatus());
-        return sheetMarkRepository.save(sheetMark);
-    }
+    //     sheetMark.setSheetMarkStatus(sheetMarkRequest.getSheetMarkStatus());
+    //     return sheetMarkRepository.save(sheetMark);
+    // }
 
 
     public void assignScores(Long studentId, Long courseClassId, Double assignmentScore, Double projectScore, Double midTermScore, Double finalExamScore) {
@@ -215,7 +215,7 @@ public class SheetMarkService {
             if (finalExamScore != null) {
                 sheetMark.setFinalExamScore(finalExamScore);
             }
-            sheetMark.updateFinalGrade(); // Assuming this method exists to recalculate final grade
+            sheetMark.updateFinalGrade();
             sheetMarkRepository.save(sheetMark);
         }
     }
@@ -230,5 +230,12 @@ public class SheetMarkService {
 
     public void deleteAllSheetMark() {
         sheetMarkRepository.deleteAll();
+    }
+
+    public void assignManyScores(Set<UpdateSheetMark> updateSheetMarks) {
+        for (UpdateSheetMark updateSheetMark : updateSheetMarks) {
+            assignScores(updateSheetMark.getStudentId(), updateSheetMark.getCourseClassId(), updateSheetMark.getAssignmentScore(),
+                    updateSheetMark.getProjectScore(), updateSheetMark.getMidTermScore(), updateSheetMark.getFinalExamScore());
+        }
     }
 }

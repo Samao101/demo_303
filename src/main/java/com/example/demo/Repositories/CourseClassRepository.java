@@ -68,5 +68,7 @@ public interface CourseClassRepository extends JpaRepository<CourseClass, Long>,
        Set<CourseClass> findByStudentIdsContains(Long studentId);
 
        Set<CourseClass> findByTeacherId(Long teacherId);
+
+       Set<CourseClass> findByTeacherIdAndCourseClassStatus(Long teacherId, CourseClassStatus courseClassStatus);
 }   
 

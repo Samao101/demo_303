@@ -75,7 +75,7 @@ public class SheetMark extends BaseEntityWithIdLong {
     }
 
     public void finalizeSheetMark() {
-        if (finalGrade < 4.0 || finalGrade == null) {
+        if (finalGrade == null  || finalGrade < 4.0) {
             sheetMarkStatus = SheetMarkStatus.Completed_in_fail;
         } else {
             sheetMarkStatus = SheetMarkStatus.Completed_in_pass;

@@ -5,6 +5,7 @@ import com.example.demo.models.entity.enums.SheetMarkStatus;
 
 public record SheetMarkDto(
     Long studentId,
+    String studentName,
     String courseId,
     String courseName,
     CourseLevel courseLevel,

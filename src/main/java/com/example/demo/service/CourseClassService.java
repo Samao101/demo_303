@@ -246,8 +246,12 @@ public class CourseClassService {
     }
 
     public boolean check() {
-        Set<CourseClass> courseClasses = courseClassRepository.findByCourseClassStatus(CourseClassStatus.inProgress);
+        Set<CourseClass> courseClasses = courseClassRepository.findByCourseClassStatus(CourseClassStatus.inPlanned);
         return (courseClasses.size() != 0);
+    }
+
+    public Set<CourseClass> getClassOfTeacher(Long teacherId) {
+        return courseClassRepository.findByTeacherIdAndCourseClassStatus(teacherId, CourseClassStatus.inProgress);
     }
     
 }

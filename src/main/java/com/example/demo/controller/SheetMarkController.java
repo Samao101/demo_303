@@ -86,15 +86,15 @@ public class SheetMarkController {
         }
     }
 
-    @PutMapping
-    public ResponseEntity<ResponseObject> updateSheetMark(@RequestBody UpdateSheetMark updateRequest) {
-        try {
-            SheetMarkDto updatedSheetMark = sheetMarkDtoConverter.convert(sheetMarkService.updateSheetMark(updateRequest));
-            return ResponseEntity.ok(new ResponseObject("success", "Sheet mark updated successfully", updatedSheetMark));
-        } catch (RuntimeException e) {
-            return ResponseEntity.badRequest().body(new ResponseObject("error", e.getMessage(), null));
-        }
-    }
+    // @PutMapping
+    // public ResponseEntity<ResponseObject> updateSheetMark(@RequestBody UpdateSheetMark updateRequest) {
+    //     try {
+    //         SheetMarkDto updatedSheetMark = sheetMarkDtoConverter.convert(sheetMarkService.updateSheetMark(updateRequest));
+    //         return ResponseEntity.ok(new ResponseObject("success", "Sheet mark updated successfully", updatedSheetMark));
+    //     } catch (RuntimeException e) {
+    //         return ResponseEntity.badRequest().body(new ResponseObject("error", e.getMessage(), null));
+    //     }
+    // }
 
 
     @PutMapping("/assignScores")
@@ -106,6 +106,16 @@ public class SheetMarkController {
                                                        @RequestParam(required = false) Double finalExamScore) {
         try {
             sheetMarkService.assignScores(studentId, courseClassId, assignmentScore, projectScore, midTermScore, finalExamScore);
+            return ResponseEntity.ok(new ResponseObject("success", "Scores assigned successfully", null));
+        } catch (IllegalArgumentException e) {
+            return ResponseEntity.badRequest().body(new ResponseObject("error", e.getMessage(), null));
+        }
+    }
+
+    @PutMapping("/assignManyScores")
+    public ResponseEntity<ResponseObject> assignManyScores(@RequestBody Set<UpdateSheetMark> updateSheetMarks) {
+        try {
+            sheetMarkService.assignManyScores(updateSheetMarks);
             return ResponseEntity.ok(new ResponseObject("success", "Scores assigned successfully", null));
         } catch (IllegalArgumentException e) {
             return ResponseEntity.badRequest().body(new ResponseObject("error", e.getMessage(), null));
