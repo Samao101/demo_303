@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Admin1",
+        "age": 31,
+        "gender": "M",
+        "dateOfBirth": "1987-02-24",
+        "placeOfBirth": "City1",
+        "citizenIdentification": "IDA00001",
+        "email": "admin1@example.com",
+        "phoneNumber": "0000000001"
+    },
+    {
+        "name": "Admin2",
+        "age": 32,
+        "gender": "F",
+        "dateOfBirth": "1963-10-04",
+        "placeOfBirth": "City2",
+        "citizenIdentification": "IDA00002",
+        "email": "admin2@example.com",
+        "phoneNumber": "0000000002"
+    },
+    {
+        "name": "Admin3",
+        "age": 33,
+        "gender": "F",
+        "dateOfBirth": "1965-04-23",
+        "placeOfBirth": "City3",
+        "citizenIdentification": "IDA00003",
+        "email": "admin3@example.com",
+        "phoneNumber": "0000000003"
+    },
+    {
+        "name": "Admin4",
+        "age": 34,
+        "gender": "F",
+        "dateOfBirth": "1987-03-01",
+        "placeOfBirth": "City4",
+        "citizenIdentification": "IDA00004",
+        "email": "admin4@example.com",
+        "phoneNumber": "0000000004"
+    },
+    {
+        "name": "Admin5",
+        "age": 35,
+        "gender": "F",
+        "dateOfBirth": "1960-07-03",
+        "placeOfBirth": "City5",
+        "citizenIdentification": "IDA00005",
+        "email": "admin5@example.com",
+        "phoneNumber": "0000000005"
+    },
+    {
+        "name": "Admin6",
+        "age": 36,
+        "gender": "F",
+        "dateOfBirth": "1976-09-12",
+        "placeOfBirth": "City6",
+        "citizenIdentification": "IDA00006",
+        "email": "admin6@example.com",
+        "phoneNumber": "0000000006"
+    },
+    {
+        "name": "Admin7",
+        "age": 37,
+        "gender": "F",
+        "dateOfBirth": "1975-02-14",
+        "placeOfBirth": "City7",
+        "citizenIdentification": "IDA00007",
+        "email": "admin7@example.com",
+        "phoneNumber": "0000000007"
+    },
+    {
+        "name": "Admin8",
+        "age": 38,
+        "gender": "M",
+        "dateOfBirth": "1964-04-21",
+        "placeOfBirth": "City8",
+        "citizenIdentification": "IDA00008",
+        "email": "admin8@example.com",
+        "phoneNumber": "0000000008"
+    },
+    {
+        "name": "Admin9",
+        "age": 39,
+        "gender": "M",
+        "dateOfBirth": "1982-06-26",
+        "placeOfBirth": "City9",
+        "citizenIdentification": "IDA00009",
+        "email": "admin9@example.com",
+        "phoneNumber": "0000000009"
+    },
+    {
+        "name": "Admin10",
+        "age": 40,
+        "gender": "F",
+        "dateOfBirth": "1973-06-12",
+        "placeOfBirth": "City10",
+        "citizenIdentification": "IDA00010",
+        "email": "admin10@example.com",
+        "phoneNumber": "0000000010"
+    }
+]

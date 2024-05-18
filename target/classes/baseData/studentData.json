@@ -1,0 +1,1002 @@
+[
+    {
+        "name": "student_1",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-09-19",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS001",
+        "email": "student1@example.com",
+        "phoneNumber": "0200000001"
+    },
+    {
+        "name": "student_2",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-02-02",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS002",
+        "email": "student2@example.com",
+        "phoneNumber": "0200000002"
+    },
+    {
+        "name": "student_3",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-02-12",
+        "placeOfBirth": "Hà Nội",
+        "citizenIdentification": "IDS003",
+        "email": "student3@example.com",
+        "phoneNumber": "0200000003"
+    },
+    {
+        "name": "student_4",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-11-22",
+        "placeOfBirth": "Quảng Bình",
+        "citizenIdentification": "IDS004",
+        "email": "student4@example.com",
+        "phoneNumber": "0200000004"
+    },
+    {
+        "name": "student_5",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-12-16",
+        "placeOfBirth": "Phú Yên",
+        "citizenIdentification": "IDS005",
+        "email": "student5@example.com",
+        "phoneNumber": "0200000005"
+    },
+    {
+        "name": "student_6",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-11-02",
+        "placeOfBirth": "Gia Lai",
+        "citizenIdentification": "IDS006",
+        "email": "student6@example.com",
+        "phoneNumber": "0200000006"
+    },
+    {
+        "name": "student_7",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-02-05",
+        "placeOfBirth": "Đà Nẵng",
+        "citizenIdentification": "IDS007",
+        "email": "student7@example.com",
+        "phoneNumber": "0200000007"
+    },
+    {
+        "name": "student_8",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-02-27",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS008",
+        "email": "student8@example.com",
+        "phoneNumber": "0200000008"
+    },
+    {
+        "name": "student_9",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-03-23",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS009",
+        "email": "student9@example.com",
+        "phoneNumber": "0200000009"
+    },
+    {
+        "name": "student_10",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-01-01",
+        "placeOfBirth": "Hà Nội",
+        "citizenIdentification": "IDS010",
+        "email": "student10@example.com",
+        "phoneNumber": "0200000010"
+    },
+    {
+        "name": "student_11",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-07-20",
+        "placeOfBirth": "Quảng Bình",
+        "citizenIdentification": "IDS011",
+        "email": "student11@example.com",
+        "phoneNumber": "0200000011"
+    },
+    {
+        "name": "student_12",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-09-24",
+        "placeOfBirth": "Phú Yên",
+        "citizenIdentification": "IDS012",
+        "email": "student12@example.com",
+        "phoneNumber": "0200000012"
+    },
+    {
+        "name": "student_13",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-03-24",
+        "placeOfBirth": "Gia Lai",
+        "citizenIdentification": "IDS013",
+        "email": "student13@example.com",
+        "phoneNumber": "0200000013"
+    },
+    {
+        "name": "student_14",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-03-15",
+        "placeOfBirth": "Đà Nẵng",
+        "citizenIdentification": "IDS014",
+        "email": "student14@example.com",
+        "phoneNumber": "0200000014"
+    },
+    {
+        "name": "student_15",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-04-25",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS015",
+        "email": "student15@example.com",
+        "phoneNumber": "0200000015"
+    },
+    {
+        "name": "student_16",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-06-10",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS016",
+        "email": "student16@example.com",
+        "phoneNumber": "0200000016"
+    },
+    {
+        "name": "student_17",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-10-22",
+        "placeOfBirth": "Hà Nội",
+        "citizenIdentification": "IDS017",
+        "email": "student17@example.com",
+        "phoneNumber": "0200000017"
+    },
+    {
+        "name": "student_18",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-12-26",
+        "placeOfBirth": "Quảng Bình",
+        "citizenIdentification": "IDS018",
+        "email": "student18@example.com",
+        "phoneNumber": "0200000018"
+    },
+    {
+        "name": "student_19",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-11-19",
+        "placeOfBirth": "Phú Yên",
+        "citizenIdentification": "IDS019",
+        "email": "student19@example.com",
+        "phoneNumber": "0200000019"
+    },
+    {
+        "name": "student_20",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-07-11",
+        "placeOfBirth": "Gia Lai",
+        "citizenIdentification": "IDS020",
+        "email": "student20@example.com",
+        "phoneNumber": "0200000020"
+    },
+    {
+        "name": "student_21",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-07-22",
+        "placeOfBirth": "Đà Nẵng",
+        "citizenIdentification": "IDS021",
+        "email": "student21@example.com",
+        "phoneNumber": "0200000021"
+    },
+    {
+        "name": "student_22",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-11-07",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS022",
+        "email": "student22@example.com",
+        "phoneNumber": "0200000022"
+    },
+    {
+        "name": "student_23",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-12-13",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS023",
+        "email": "student23@example.com",
+        "phoneNumber": "0200000023"
+    },
+    {
+        "name": "student_24",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-06-04",
+        "placeOfBirth": "Hà Nội",
+        "citizenIdentification": "IDS024",
+        "email": "student24@example.com",
+        "phoneNumber": "0200000024"
+    },
+    {
+        "name": "student_25",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-01-17",
+        "placeOfBirth": "Quảng Bình",
+        "citizenIdentification": "IDS025",
+        "email": "student25@example.com",
+        "phoneNumber": "0200000025"
+    },
+    {
+        "name": "student_26",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-03-27",
+        "placeOfBirth": "Phú Yên",
+        "citizenIdentification": "IDS026",
+        "email": "student26@example.com",
+        "phoneNumber": "0200000026"
+    },
+    {
+        "name": "student_27",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-10-06",
+        "placeOfBirth": "Gia Lai",
+        "citizenIdentification": "IDS027",
+        "email": "student27@example.com",
+        "phoneNumber": "0200000027"
+    },
+    {
+        "name": "student_28",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-01-03",
+        "placeOfBirth": "Đà Nẵng",
+        "citizenIdentification": "IDS028",
+        "email": "student28@example.com",
+        "phoneNumber": "0200000028"
+    },
+    {
+        "name": "student_29",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-09-24",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS029",
+        "email": "student29@example.com",
+        "phoneNumber": "0200000029"
+    },
+    {
+        "name": "student_30",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-01-20",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS030",
+        "email": "student30@example.com",
+        "phoneNumber": "0200000030"
+    },
+    {
+        "name": "student_31",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-07-08",
+        "placeOfBirth": "Hà Nội",
+        "citizenIdentification": "IDS031",
+        "email": "student31@example.com",
+        "phoneNumber": "0200000031"
+    },
+    {
+        "name": "student_32",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-05-23",
+        "placeOfBirth": "Quảng Bình",
+        "citizenIdentification": "IDS032",
+        "email": "student32@example.com",
+        "phoneNumber": "0200000032"
+    },
+    {
+        "name": "student_33",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-12-04",
+        "placeOfBirth": "Phú Yên",
+        "citizenIdentification": "IDS033",
+        "email": "student33@example.com",
+        "phoneNumber": "0200000033"
+    },
+    {
+        "name": "student_34",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-04-06",
+        "placeOfBirth": "Gia Lai",
+        "citizenIdentification": "IDS034",
+        "email": "student34@example.com",
+        "phoneNumber": "0200000034"
+    },
+    {
+        "name": "student_35",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-09-15",
+        "placeOfBirth": "Đà Nẵng",
+        "citizenIdentification": "IDS035",
+        "email": "student35@example.com",
+        "phoneNumber": "0200000035"
+    },
+    {
+        "name": "student_36",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-02-02",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS036",
+        "email": "student36@example.com",
+        "phoneNumber": "0200000036"
+    },
+    {
+        "name": "student_37",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-01-26",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS037",
+        "email": "student37@example.com",
+        "phoneNumber": "0200000037"
+    },
+    {
+        "name": "student_38",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-06-06",
+        "placeOfBirth": "Hà Nội",
+        "citizenIdentification": "IDS038",
+        "email": "student38@example.com",
+        "phoneNumber": "0200000038"
+    },
+    {
+        "name": "student_39",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-11-15",
+        "placeOfBirth": "Quảng Bình",
+        "citizenIdentification": "IDS039",
+        "email": "student39@example.com",
+        "phoneNumber": "0200000039"
+    },
+    {
+        "name": "student_40",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-04-11",
+        "placeOfBirth": "Phú Yên",
+        "citizenIdentification": "IDS040",
+        "email": "student40@example.com",
+        "phoneNumber": "0200000040"
+    },
+    {
+        "name": "student_41",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-07-23",
+        "placeOfBirth": "Gia Lai",
+        "citizenIdentification": "IDS041",
+        "email": "student41@example.com",
+        "phoneNumber": "0200000041"
+    },
+    {
+        "name": "student_42",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-07-16",
+        "placeOfBirth": "Đà Nẵng",
+        "citizenIdentification": "IDS042",
+        "email": "student42@example.com",
+        "phoneNumber": "0200000042"
+    },
+    {
+        "name": "student_43",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-08-28",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS043",
+        "email": "student43@example.com",
+        "phoneNumber": "0200000043"
+    },
+    {
+        "name": "student_44",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-09-04",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS044",
+        "email": "student44@example.com",
+        "phoneNumber": "0200000044"
+    },
+    {
+        "name": "student_45",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-09-03",
+        "placeOfBirth": "Hà Nội",
+        "citizenIdentification": "IDS045",
+        "email": "student45@example.com",
+        "phoneNumber": "0200000045"
+    },
+    {
+        "name": "student_46",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-11-09",
+        "placeOfBirth": "Quảng Bình",
+        "citizenIdentification": "IDS046",
+        "email": "student46@example.com",
+        "phoneNumber": "0200000046"
+    },
+    {
+        "name": "student_47",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-07-07",
+        "placeOfBirth": "Phú Yên",
+        "citizenIdentification": "IDS047",
+        "email": "student47@example.com",
+        "phoneNumber": "0200000047"
+    },
+    {
+        "name": "student_48",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-07-06",
+        "placeOfBirth": "Gia Lai",
+        "citizenIdentification": "IDS048",
+        "email": "student48@example.com",
+        "phoneNumber": "0200000048"
+    },
+    {
+        "name": "student_49",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-06-12",
+        "placeOfBirth": "Đà Nẵng",
+        "citizenIdentification": "IDS049",
+        "email": "student49@example.com",
+        "phoneNumber": "0200000049"
+    },
+    {
+        "name": "student_50",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-04-09",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS050",
+        "email": "student50@example.com",
+        "phoneNumber": "0200000050"
+    },
+    {
+        "name": "student_51",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-10-28",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS051",
+        "email": "student51@example.com",
+        "phoneNumber": "0200000051"
+    },
+    {
+        "name": "student_52",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-07-14",
+        "placeOfBirth": "Hà Nội",
+        "citizenIdentification": "IDS052",
+        "email": "student52@example.com",
+        "phoneNumber": "0200000052"
+    },
+    {
+        "name": "student_53",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-03-14",
+        "placeOfBirth": "Quảng Bình",
+        "citizenIdentification": "IDS053",
+        "email": "student53@example.com",
+        "phoneNumber": "0200000053"
+    },
+    {
+        "name": "student_54",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-10-05",
+        "placeOfBirth": "Phú Yên",
+        "citizenIdentification": "IDS054",
+        "email": "student54@example.com",
+        "phoneNumber": "0200000054"
+    },
+    {
+        "name": "student_55",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-01-19",
+        "placeOfBirth": "Gia Lai",
+        "citizenIdentification": "IDS055",
+        "email": "student55@example.com",
+        "phoneNumber": "0200000055"
+    },
+    {
+        "name": "student_56",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-11-10",
+        "placeOfBirth": "Đà Nẵng",
+        "citizenIdentification": "IDS056",
+        "email": "student56@example.com",
+        "phoneNumber": "0200000056"
+    },
+    {
+        "name": "student_57",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-07-13",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS057",
+        "email": "student57@example.com",
+        "phoneNumber": "0200000057"
+    },
+    {
+        "name": "student_58",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-06-12",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS058",
+        "email": "student58@example.com",
+        "phoneNumber": "0200000058"
+    },
+    {
+        "name": "student_59",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-02-03",
+        "placeOfBirth": "Hà Nội",
+        "citizenIdentification": "IDS059",
+        "email": "student59@example.com",
+        "phoneNumber": "0200000059"
+    },
+    {
+        "name": "student_60",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-04-21",
+        "placeOfBirth": "Quảng Bình",
+        "citizenIdentification": "IDS060",
+        "email": "student60@example.com",
+        "phoneNumber": "0200000060"
+    },
+    {
+        "name": "student_61",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-10-13",
+        "placeOfBirth": "Phú Yên",
+        "citizenIdentification": "IDS061",
+        "email": "student61@example.com",
+        "phoneNumber": "0200000061"
+    },
+    {
+        "name": "student_62",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-08-10",
+        "placeOfBirth": "Gia Lai",
+        "citizenIdentification": "IDS062",
+        "email": "student62@example.com",
+        "phoneNumber": "0200000062"
+    },
+    {
+        "name": "student_63",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-01-06",
+        "placeOfBirth": "Đà Nẵng",
+        "citizenIdentification": "IDS063",
+        "email": "student63@example.com",
+        "phoneNumber": "0200000063"
+    },
+    {
+        "name": "student_64",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-04-04",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS064",
+        "email": "student64@example.com",
+        "phoneNumber": "0200000064"
+    },
+    {
+        "name": "student_65",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-01-28",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS065",
+        "email": "student65@example.com",
+        "phoneNumber": "0200000065"
+    },
+    {
+        "name": "student_66",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-11-21",
+        "placeOfBirth": "Hà Nội",
+        "citizenIdentification": "IDS066",
+        "email": "student66@example.com",
+        "phoneNumber": "0200000066"
+    },
+    {
+        "name": "student_67",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-11-01",
+        "placeOfBirth": "Quảng Bình",
+        "citizenIdentification": "IDS067",
+        "email": "student67@example.com",
+        "phoneNumber": "0200000067"
+    },
+    {
+        "name": "student_68",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-06-10",
+        "placeOfBirth": "Phú Yên",
+        "citizenIdentification": "IDS068",
+        "email": "student68@example.com",
+        "phoneNumber": "0200000068"
+    },
+    {
+        "name": "student_69",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-02-01",
+        "placeOfBirth": "Gia Lai",
+        "citizenIdentification": "IDS069",
+        "email": "student69@example.com",
+        "phoneNumber": "0200000069"
+    },
+    {
+        "name": "student_70",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-10-08",
+        "placeOfBirth": "Đà Nẵng",
+        "citizenIdentification": "IDS070",
+        "email": "student70@example.com",
+        "phoneNumber": "0200000070"
+    },
+    {
+        "name": "student_71",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-01-23",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS071",
+        "email": "student71@example.com",
+        "phoneNumber": "0200000071"
+    },
+    {
+        "name": "student_72",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-02-22",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS072",
+        "email": "student72@example.com",
+        "phoneNumber": "0200000072"
+    },
+    {
+        "name": "student_73",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-10-09",
+        "placeOfBirth": "Hà Nội",
+        "citizenIdentification": "IDS073",
+        "email": "student73@example.com",
+        "phoneNumber": "0200000073"
+    },
+    {
+        "name": "student_74",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-09-05",
+        "placeOfBirth": "Quảng Bình",
+        "citizenIdentification": "IDS074",
+        "email": "student74@example.com",
+        "phoneNumber": "0200000074"
+    },
+    {
+        "name": "student_75",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-11-28",
+        "placeOfBirth": "Phú Yên",
+        "citizenIdentification": "IDS075",
+        "email": "student75@example.com",
+        "phoneNumber": "0200000075"
+    },
+    {
+        "name": "student_76",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-11-14",
+        "placeOfBirth": "Gia Lai",
+        "citizenIdentification": "IDS076",
+        "email": "student76@example.com",
+        "phoneNumber": "0200000076"
+    },
+    {
+        "name": "student_77",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-06-03",
+        "placeOfBirth": "Đà Nẵng",
+        "citizenIdentification": "IDS077",
+        "email": "student77@example.com",
+        "phoneNumber": "0200000077"
+    },
+    {
+        "name": "student_78",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-10-26",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS078",
+        "email": "student78@example.com",
+        "phoneNumber": "0200000078"
+    },
+    {
+        "name": "student_79",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-10-10",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS079",
+        "email": "student79@example.com",
+        "phoneNumber": "0200000079"
+    },
+    {
+        "name": "student_80",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-02-02",
+        "placeOfBirth": "Hà Nội",
+        "citizenIdentification": "IDS080",
+        "email": "student80@example.com",
+        "phoneNumber": "0200000080"
+    },
+    {
+        "name": "student_81",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-07-04",
+        "placeOfBirth": "Quảng Bình",
+        "citizenIdentification": "IDS081",
+        "email": "student81@example.com",
+        "phoneNumber": "0200000081"
+    },
+    {
+        "name": "student_82",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-09-26",
+        "placeOfBirth": "Phú Yên",
+        "citizenIdentification": "IDS082",
+        "email": "student82@example.com",
+        "phoneNumber": "0200000082"
+    },
+    {
+        "name": "student_83",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-01-20",
+        "placeOfBirth": "Gia Lai",
+        "citizenIdentification": "IDS083",
+        "email": "student83@example.com",
+        "phoneNumber": "0200000083"
+    },
+    {
+        "name": "student_84",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-01-02",
+        "placeOfBirth": "Đà Nẵng",
+        "citizenIdentification": "IDS084",
+        "email": "student84@example.com",
+        "phoneNumber": "0200000084"
+    },
+    {
+        "name": "student_85",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-12-27",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS085",
+        "email": "student85@example.com",
+        "phoneNumber": "0200000085"
+    },
+    {
+        "name": "student_86",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-05-21",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS086",
+        "email": "student86@example.com",
+        "phoneNumber": "0200000086"
+    },
+    {
+        "name": "student_87",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-11-18",
+        "placeOfBirth": "Hà Nội",
+        "citizenIdentification": "IDS087",
+        "email": "student87@example.com",
+        "phoneNumber": "0200000087"
+    },
+    {
+        "name": "student_88",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-08-24",
+        "placeOfBirth": "Quảng Bình",
+        "citizenIdentification": "IDS088",
+        "email": "student88@example.com",
+        "phoneNumber": "0200000088"
+    },
+    {
+        "name": "student_89",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-01-06",
+        "placeOfBirth": "Phú Yên",
+        "citizenIdentification": "IDS089",
+        "email": "student89@example.com",
+        "phoneNumber": "0200000089"
+    },
+    {
+        "name": "student_90",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-04-18",
+        "placeOfBirth": "Gia Lai",
+        "citizenIdentification": "IDS090",
+        "email": "student90@example.com",
+        "phoneNumber": "0200000090"
+    },
+    {
+        "name": "student_91",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-04-25",
+        "placeOfBirth": "Đà Nẵng",
+        "citizenIdentification": "IDS091",
+        "email": "student91@example.com",
+        "phoneNumber": "0200000091"
+    },
+    {
+        "name": "student_92",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-08-01",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS092",
+        "email": "student92@example.com",
+        "phoneNumber": "0200000092"
+    },
+    {
+        "name": "student_93",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-05-10",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS093",
+        "email": "student93@example.com",
+        "phoneNumber": "0200000093"
+    },
+    {
+        "name": "student_94",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-05-03",
+        "placeOfBirth": "Hà Nội",
+        "citizenIdentification": "IDS094",
+        "email": "student94@example.com",
+        "phoneNumber": "0200000094"
+    },
+    {
+        "name": "student_95",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-03-03",
+        "placeOfBirth": "Quảng Bình",
+        "citizenIdentification": "IDS095",
+        "email": "student95@example.com",
+        "phoneNumber": "0200000095"
+    },
+    {
+        "name": "student_96",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-05-10",
+        "placeOfBirth": "Phú Yên",
+        "citizenIdentification": "IDS096",
+        "email": "student96@example.com",
+        "phoneNumber": "0200000096"
+    },
+    {
+        "name": "student_97",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-12-15",
+        "placeOfBirth": "Gia Lai",
+        "citizenIdentification": "IDS097",
+        "email": "student97@example.com",
+        "phoneNumber": "0200000097"
+    },
+    {
+        "name": "student_98",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-08-03",
+        "placeOfBirth": "Đà Nẵng",
+        "citizenIdentification": "IDS098",
+        "email": "student98@example.com",
+        "phoneNumber": "0200000098"
+    },
+    {
+        "name": "student_99",
+        "age": 22,
+        "gender": "M",
+        "dateOfBirth": "2002-04-22",
+        "placeOfBirth": "Quảng Ngãi",
+        "citizenIdentification": "IDS099",
+        "email": "student99@example.com",
+        "phoneNumber": "0200000099"
+    },
+    {
+        "name": "student_100",
+        "age": 22,
+        "gender": "F",
+        "dateOfBirth": "2002-12-11",
+        "placeOfBirth": "Sài Gòn",
+        "citizenIdentification": "IDS100",
+        "email": "student100@example.com",
+        "phoneNumber": "0200000100"
+    }
+]
