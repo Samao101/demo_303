@@ -1,4 +1,4 @@
-FROM  --platform=arm64v8 openjdk:8-jdk-alpine
+FROM openjdk:8-jdk-alpine
 VOLUME /tmp 
 COPY target/*.jar app.jar
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
