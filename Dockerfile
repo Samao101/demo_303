@@ -10,6 +10,5 @@ FROM openjdk:21-slim
 VOLUME /tmp
 # Copy the built JAR file from the target directory to the Docker image
 COPY target/*.jar app.jar
-EXPOSE 8080
 # Define the entry point to run the application
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
