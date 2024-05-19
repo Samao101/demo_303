@@ -5,7 +5,7 @@ RUN mvn clean package
 
 
 # Use the OpenJDK 21 image
-FROM openjdk:21-jdk-alpine
+FROM openjdk:21-slim
 # Create a volume to store temporary files
 VOLUME /tmp
 # Copy the built JAR file from the target directory to the Docker image
