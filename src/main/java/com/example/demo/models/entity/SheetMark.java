@@ -53,7 +53,6 @@ public class SheetMark extends BaseEntityWithIdLong {
     @Max(10)
     private Double finalExamScore = null;  // Điểm cuối kỳ
 
-
     private Double finalGrade= null;
 
     @Enumerated(EnumType.STRING)
