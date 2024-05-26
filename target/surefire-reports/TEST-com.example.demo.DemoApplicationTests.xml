@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.demo.DemoApplicationTests" time="91.78" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.demo.DemoApplicationTests" time="74.387" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\Hii\AppData\Local\Temp\surefire1063059776130786699\surefirebooter-20240520110900744_3.jar C:\Users\Hii\AppData\Local\Temp\surefire1063059776130786699 2024-05-20T11-09-00_212-jvmRun1 surefire-20240520110900744_1tmp surefire_0-20240520110900744_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Hii\AppData\Local\Temp\surefire10421507090464028231\surefirebooter-20240527001005472_3.jar C:\Users\Hii\AppData\Local\Temp\surefire10421507090464028231 2024-05-27T00-10-04_575-jvmRun1 surefire-20240527001005472_1tmp surefire_0-20240527001005472_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="e:\basic_java\java_spring_boot\demo_303\target\test-classes;e:\basic_java\java_spring_boot\demo_303\target\classes;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.4\spring-boot-starter-data-jpa-3.2.4.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.4\spring-boot-starter-aop-3.2.4.jar;C:\Users\Hii\.m2\repository\org\springframework\spring-aop\6.1.5\spring-aop-6.1.5.jar;C:\Users\Hii\.m2\repository\org\aspectj\aspectjweaver\1.9.21\aspectjweaver-1.9.21.jar;C:\Users\Hii\.m2\repository\org\hibernate\orm\hibernate-core\6.4.4.Final\hibernate-core-6.4.4.Final.jar;C:\Users\Hii\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Hii\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Hii\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\Hii\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\Hii\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\Hii\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\Hii\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Hii\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\Hii\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\Hii\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\Hii\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\Hii\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\Hii\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Hii\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\Hii\.m2\repository\org\springframework\data\spring-data-jpa\3.2.4\spring-data-jpa-3.2.4.jar;C:\Users\Hii\.m2\repository\org\springframework\data\spring-data-commons\3.2.4\spring-data-commons-3.2.4.jar;C:\Users\Hii\.m2\repository\org\springframework\spring-orm\6.1.5\spring-orm-6.1.5.jar;C:\Users\Hii\.m2\repository\org\springframework\spring-context\6.1.5\spring-context-6.1.5.jar;C:\Users\Hii\.m2\repository\org\springframework\spring-tx\6.1.5\spring-tx-6.1.5.jar;C:\Users\Hii\.m2\repository\org\springframework\spring-beans\6.1.5\spring-beans-6.1.5.jar;C:\Users\Hii\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\Hii\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Hii\.m2\repository\org\springframework\spring-aspects\6.1.5\spring-aspects-6.1.5.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.4\spring-boot-starter-jdbc-3.2.4.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.4\spring-boot-starter-3.2.4.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.4\spring-boot-starter-logging-3.2.4.jar;C:\Users\Hii\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\Hii\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\Hii\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\Hii\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Hii\.m2\repository\org\slf4j\jul-to-slf4j\2.0.12\jul-to-slf4j-2.0.12.jar;C:\Users\Hii\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Hii\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\Hii\.m2\repository\org\springframework\spring-jdbc\6.1.5\spring-jdbc-6.1.5.jar;C:\Users\Hii\.m2\repository\org\postgresql\postgresql\42.6.2\postgresql-42.6.2.jar;C:\Users\Hii\.m2\repository\org\checkerframework\checker-qual\3.31.0\checker-qual-3.31.0.jar;C:\Users\Hii\.m2\repository\com\mysql\mysql-connector-j\8.3.0\mysql-connector-j-8.3.0.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\3.2.4\spring-boot-starter-thymeleaf-3.2.4.jar;C:\Users\Hii\.m2\repository\org\thymeleaf\thymeleaf-spring6\3.1.2.RELEASE\thymeleaf-spring6-3.1.2.RELEASE.jar;C:\Users\Hii\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\Hii\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\Hii\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.4\spring-boot-starter-web-3.2.4.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.4\spring-boot-starter-json-3.2.4.jar;C:\Users\Hii\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.4\jackson-databind-2.15.4.jar;C:\Users\Hii\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.4\jackson-annotations-2.15.4.jar;C:\Users\Hii\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.4\jackson-core-2.15.4.jar;C:\Users\Hii\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.4\jackson-datatype-jdk8-2.15.4.jar;C:\Users\Hii\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.4\jackson-datatype-jsr310-2.15.4.jar;C:\Users\Hii\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.4\jackson-module-parameter-names-2.15.4.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.4\spring-boot-starter-tomcat-3.2.4.jar;C:\Users\Hii\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.19\tomcat-embed-core-10.1.19.jar;C:\Users\Hii\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.19\tomcat-embed-websocket-10.1.19.jar;C:\Users\Hii\.m2\repository\org\springframework\spring-web\6.1.5\spring-web-6.1.5.jar;C:\Users\Hii\.m2\repository\io\micrometer\micrometer-observation\1.12.4\micrometer-observation-1.12.4.jar;C:\Users\Hii\.m2\repository\io\micrometer\micrometer-commons\1.12.4\micrometer-commons-1.12.4.jar;C:\Users\Hii\.m2\repository\org\springframework\spring-webmvc\6.1.5\spring-webmvc-6.1.5.jar;C:\Users\Hii\.m2\repository\org\springframework\spring-expression\6.1.5\spring-expression-6.1.5.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.2.4\spring-boot-starter-validation-3.2.4.jar;C:\Users\Hii\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.19\tomcat-embed-el-10.1.19.jar;C:\Users\Hii\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\Hii\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-devtools\3.2.4\spring-boot-devtools-3.2.4.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot\3.2.4\spring-boot-3.2.4.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.4\spring-boot-autoconfigure-3.2.4.jar;C:\Users\Hii\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.4.2.jre11\mssql-jdbc-12.4.2.jre11.jar;C:\Users\Hii\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.4\spring-boot-starter-test-3.2.4.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-test\3.2.4\spring-boot-test-3.2.4.jar;C:\Users\Hii\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.4\spring-boot-test-autoconfigure-3.2.4.jar;C:\Users\Hii\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Hii\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\Hii\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\Hii\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\Hii\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\Hii\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\Hii\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\Hii\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\Hii\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Hii\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\Hii\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Hii\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Hii\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Hii\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Hii\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Hii\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Hii\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\Hii\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\Hii\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\Hii\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Hii\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\Hii\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\Hii\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Hii\.m2\repository\org\springframework\spring-core\6.1.5\spring-core-6.1.5.jar;C:\Users\Hii\.m2\repository\org\springframework\spring-jcl\6.1.5\spring-jcl-6.1.5.jar;C:\Users\Hii\.m2\repository\org\springframework\spring-test\6.1.5\spring-test-6.1.5.jar;C:\Users\Hii\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\Hii\AppData\Local\Temp\surefire1063059776130786699\surefirebooter-20240520110900744_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Hii\AppData\Local\Temp\surefire10421507090464028231\surefirebooter-20240527001005472_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22+36-2370"/>
@@ -52,11 +52,11 @@
     <property name="user.dir" value="e:\basic_java\java_spring_boot\demo_303"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="18388"/>
+    <property name="PID" value="11972"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\MATLAB\R2014b\runtime\win64;C:\Program Files\MATLAB\R2014b\bin;E:\Python\Scripts;E:\Python\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;E:\Python\Scripts\;E:\Python\;C:\msys64\mingw64\bin;C:\Users\Hii\AppData\Local\Microsoft\WindowsApps;E:\DEV\Microsoft VS Code\bin;E:\DEV\Microsoft VS Code\;C:\Users\Hii\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\Azure Data Studio\bin;C:\Users\Hii\AppData\Roaming\npm;C:\ghcup\bin;;E:\Azure Data Studio\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\MATLAB\R2014b\runtime\win64;C:\Program Files\MATLAB\R2014b\bin;E:\Python\Scripts;E:\Python\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\R\R-4.3.3\bin;E:\Python\Scripts\;E:\Python\;C:\msys64\mingw64\bin;C:\Users\Hii\AppData\Local\Microsoft\WindowsApps;E:\DEV\Microsoft VS Code\bin;E:\DEV\Microsoft VS Code\;C:\Users\Hii\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\Azure Data Studio\bin;C:\Users\Hii\AppData\Roaming\npm;C:\ghcup\bin;;E:\Azure Data Studio\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -64,10 +64,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="contextLoads" classname="com.example.demo.DemoApplicationTests" time="3.877">
-    <system-out><![CDATA[11:09:04.029 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-11:09:04.557 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
-11:09:05.383 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+  <testcase name="contextLoads" classname="com.example.demo.DemoApplicationTests" time="1.787">
+    <system-out><![CDATA[00:10:08.902 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:10:09.231 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+00:10:09.612 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -77,204 +77,204 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.4)
 
-2024-05-20T11:09:07.581+07:00  INFO 18388 --- [           main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 22 with PID 18388 (started by Hii in e:\basic_java\java_spring_boot\demo_303)
-2024-05-20T11:09:07.587+07:00  INFO 18388 --- [           main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2024-05-20T11:09:12.565+07:00  INFO 18388 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-20T11:09:12.761+07:00  INFO 18388 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 175 ms. Found 9 JPA repository interfaces.
-2024-05-20T11:09:14.883+07:00  INFO 18388 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-20T11:09:15.422+07:00  INFO 18388 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-20T11:09:15.621+07:00  INFO 18388 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-20T11:09:17.116+07:00  INFO 18388 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-20T11:09:17.375+07:00  INFO 18388 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-20T11:09:28.486+07:00  INFO 18388 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f26b992
-2024-05-20T11:09:28.495+07:00  INFO 18388 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-20T11:09:32.439+07:00  INFO 18388 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-20T11:09:38.349+07:00  INFO 18388 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-20T11:09:39.944+07:00  INFO 18388 --- [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-20T11:09:44.058+07:00  WARN 18388 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-20T11:09:45.455+07:00  WARN 18388 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-05-20T11:10:30.939+07:00  INFO 18388 --- [           main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 85.588 seconds (process running for 89.658)
+2024-05-27T00:10:10.400+07:00  INFO 11972 --- [           main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 22 with PID 11972 (started by Hii in e:\basic_java\java_spring_boot\demo_303)
+2024-05-27T00:10:10.407+07:00  INFO 11972 --- [           main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-05-27T00:10:12.313+07:00  INFO 11972 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-27T00:10:12.545+07:00  INFO 11972 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 220 ms. Found 9 JPA repository interfaces.
+2024-05-27T00:10:14.569+07:00  INFO 11972 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-27T00:10:14.687+07:00  INFO 11972 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-27T00:10:14.756+07:00  INFO 11972 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-27T00:10:16.041+07:00  INFO 11972 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-27T00:10:16.139+07:00  INFO 11972 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-27T00:10:21.121+07:00  INFO 11972 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1aac0a47
+2024-05-27T00:10:21.125+07:00  INFO 11972 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-27T00:10:24.414+07:00  INFO 11972 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-27T00:10:30.856+07:00  INFO 11972 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27T00:10:32.119+07:00  INFO 11972 --- [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-27T00:10:35.948+07:00  WARN 11972 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-27T00:10:36.740+07:00  WARN 11972 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-27T00:11:20.890+07:00  INFO 11972 --- [           main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 71.305 seconds (process running for 74.392)
 ]]></system-out>
-    <system-err><![CDATA[Failed to seed course Data Structures: This course id already exists.
+    <system-err><![CDATA[Failed to seed course Algorithms: This course id already exists.
 Failed to seed course Computer Networks: This course id already exists.
-Failed to seed course Algorithms: This course id already exists.
-Failed to seed course Software Engineering: This course id already exists.
-Failed to seed course Artificial Intelligence: This course id already exists.
-Failed to seed course Databases: This course id already exists.
 Failed to seed course Introduction to Computer Science: This course id already exists.
-Failed to seed course Operating Systems: This course id already exists.
 Failed to seed course Web Development: This course id already exists.
 Failed to seed course Computer Organization: This course id already exists.
-Failed to seed student student_36: This citizen identification already exists.
-Failed to seed student student_58: This citizen identification already exists.
-Failed to seed student student_60: This citizen identification already exists.
-Failed to seed student student_9: This citizen identification already exists.
-Failed to seed student student_30: This citizen identification already exists.
-Failed to seed student student_82: This citizen identification already exists.
-Failed to seed student student_29: This citizen identification already exists.
-Failed to seed student student_52: This citizen identification already exists.
-Failed to seed student student_10: This citizen identification already exists.
-Failed to seed student student_51: This citizen identification already exists.
-Failed to seed student student_79: This citizen identification already exists.
-Failed to seed student student_84: This citizen identification already exists.
-Failed to seed student student_95: This citizen identification already exists.
-Failed to seed student student_26: This citizen identification already exists.
-Failed to seed student student_70: This citizen identification already exists.
-Failed to seed student student_63: This citizen identification already exists.
-Failed to seed student student_23: This citizen identification already exists.
-Failed to seed student student_50: This citizen identification already exists.
-Failed to seed student student_22: This citizen identification already exists.
-Failed to seed student student_12: This citizen identification already exists.
-Failed to seed student student_46: This citizen identification already exists.
-Failed to seed student student_8: This citizen identification already exists.
-Failed to seed student student_43: This citizen identification already exists.
-Failed to seed student student_81: This citizen identification already exists.
-Failed to seed student student_41: This citizen identification already exists.
-Failed to seed student student_85: This citizen identification already exists.
-Failed to seed student student_69: This citizen identification already exists.
-Failed to seed student student_76: This citizen identification already exists.
-Failed to seed student student_18: This citizen identification already exists.
-Failed to seed student student_97: This citizen identification already exists.
-Failed to seed student student_94: This citizen identification already exists.
-Failed to seed student student_21: This citizen identification already exists.
-Failed to seed student student_61: This citizen identification already exists.
-Failed to seed student student_3: This citizen identification already exists.
-Failed to seed student student_73: This citizen identification already exists.
-Failed to seed student student_5: This citizen identification already exists.
-Failed to seed student student_49: This citizen identification already exists.
+Failed to seed course Software Engineering: This course id already exists.
+Failed to seed course Artificial Intelligence: This course id already exists.
+Failed to seed course Operating Systems: This course id already exists.
+Failed to seed course Databases: This course id already exists.
+Failed to seed course Data Structures: This course id already exists.
 Failed to seed student student_100: This citizen identification already exists.
-Failed to seed student student_14: This citizen identification already exists.
-Failed to seed student student_45: This citizen identification already exists.
-Failed to seed student student_93: This citizen identification already exists.
-Failed to seed student student_92: This citizen identification already exists.
-Failed to seed student student_59: This citizen identification already exists.
-Failed to seed student student_38: This citizen identification already exists.
-Failed to seed student student_66: This citizen identification already exists.
+Failed to seed student student_37: This citizen identification already exists.
+Failed to seed student student_65: This citizen identification already exists.
+Failed to seed student student_73: This citizen identification already exists.
+Failed to seed student student_99: This citizen identification already exists.
 Failed to seed student student_68: This citizen identification already exists.
-Failed to seed student student_4: This citizen identification already exists.
+Failed to seed student student_81: This citizen identification already exists.
 Failed to seed student student_90: This citizen identification already exists.
-Failed to seed student student_24: This citizen identification already exists.
-Failed to seed student student_86: This citizen identification already exists.
-Failed to seed student student_48: This citizen identification already exists.
-Failed to seed student student_62: This citizen identification already exists.
-Failed to seed student student_33: This citizen identification already exists.
-Failed to seed student student_75: This citizen identification already exists.
-Failed to seed student student_47: This citizen identification already exists.
+Failed to seed student student_93: This citizen identification already exists.
+Failed to seed student student_5: This citizen identification already exists.
+Failed to seed student student_88: This citizen identification already exists.
 Failed to seed student student_77: This citizen identification already exists.
 Failed to seed student student_42: This citizen identification already exists.
-Failed to seed student student_19: This citizen identification already exists.
-Failed to seed student student_54: This citizen identification already exists.
-Failed to seed student student_53: This citizen identification already exists.
-Failed to seed student student_15: This citizen identification already exists.
+Failed to seed student student_70: This citizen identification already exists.
 Failed to seed student student_25: This citizen identification already exists.
-Failed to seed student student_28: This citizen identification already exists.
-Failed to seed student student_96: This citizen identification already exists.
+Failed to seed student student_92: This citizen identification already exists.
 Failed to seed student student_34: This citizen identification already exists.
-Failed to seed student student_17: This citizen identification already exists.
-Failed to seed student student_64: This citizen identification already exists.
-Failed to seed student student_74: This citizen identification already exists.
-Failed to seed student student_6: This citizen identification already exists.
-Failed to seed student student_78: This citizen identification already exists.
-Failed to seed student student_67: This citizen identification already exists.
-Failed to seed student student_98: This citizen identification already exists.
-Failed to seed student student_83: This citizen identification already exists.
-Failed to seed student student_1: This citizen identification already exists.
-Failed to seed student student_99: This citizen identification already exists.
-Failed to seed student student_2: This citizen identification already exists.
-Failed to seed student student_88: This citizen identification already exists.
-Failed to seed student student_31: This citizen identification already exists.
-Failed to seed student student_7: This citizen identification already exists.
 Failed to seed student student_16: This citizen identification already exists.
+Failed to seed student student_29: This citizen identification already exists.
+Failed to seed student student_22: This citizen identification already exists.
 Failed to seed student student_87: This citizen identification already exists.
-Failed to seed student student_35: This citizen identification already exists.
-Failed to seed student student_56: This citizen identification already exists.
-Failed to seed student student_40: This citizen identification already exists.
-Failed to seed student student_57: This citizen identification already exists.
-Failed to seed student student_80: This citizen identification already exists.
-Failed to seed student student_65: This citizen identification already exists.
-Failed to seed student student_44: This citizen identification already exists.
-Failed to seed student student_72: This citizen identification already exists.
-Failed to seed student student_71: This citizen identification already exists.
-Failed to seed student student_11: This citizen identification already exists.
-Failed to seed student student_20: This citizen identification already exists.
-Failed to seed student student_89: This citizen identification already exists.
+Failed to seed student student_59: This citizen identification already exists.
+Failed to seed student student_48: This citizen identification already exists.
+Failed to seed student student_38: This citizen identification already exists.
+Failed to seed student student_62: This citizen identification already exists.
+Failed to seed student student_31: This citizen identification already exists.
+Failed to seed student student_50: This citizen identification already exists.
+Failed to seed student student_60: This citizen identification already exists.
+Failed to seed student student_54: This citizen identification already exists.
+Failed to seed student student_14: This citizen identification already exists.
+Failed to seed student student_46: This citizen identification already exists.
+Failed to seed student student_52: This citizen identification already exists.
+Failed to seed student student_98: This citizen identification already exists.
+Failed to seed student student_53: This citizen identification already exists.
+Failed to seed student student_10: This citizen identification already exists.
+Failed to seed student student_18: This citizen identification already exists.
+Failed to seed student student_83: This citizen identification already exists.
+Failed to seed student student_43: This citizen identification already exists.
+Failed to seed student student_9: This citizen identification already exists.
+Failed to seed student student_69: This citizen identification already exists.
+Failed to seed student student_6: This citizen identification already exists.
+Failed to seed student student_94: This citizen identification already exists.
+Failed to seed student student_97: This citizen identification already exists.
+Failed to seed student student_33: This citizen identification already exists.
+Failed to seed student student_45: This citizen identification already exists.
+Failed to seed student student_78: This citizen identification already exists.
 Failed to seed student student_27: This citizen identification already exists.
-Failed to seed student student_55: This citizen identification already exists.
+Failed to seed student student_56: This citizen identification already exists.
+Failed to seed student student_66: This citizen identification already exists.
+Failed to seed student student_84: This citizen identification already exists.
+Failed to seed student student_64: This citizen identification already exists.
 Failed to seed student student_91: This citizen identification already exists.
-Failed to seed student student_32: This citizen identification already exists.
 Failed to seed student student_39: This citizen identification already exists.
+Failed to seed student student_20: This citizen identification already exists.
+Failed to seed student student_8: This citizen identification already exists.
+Failed to seed student student_74: This citizen identification already exists.
+Failed to seed student student_12: This citizen identification already exists.
+Failed to seed student student_55: This citizen identification already exists.
+Failed to seed student student_32: This citizen identification already exists.
+Failed to seed student student_24: This citizen identification already exists.
+Failed to seed student student_49: This citizen identification already exists.
+Failed to seed student student_7: This citizen identification already exists.
+Failed to seed student student_4: This citizen identification already exists.
+Failed to seed student student_15: This citizen identification already exists.
+Failed to seed student student_36: This citizen identification already exists.
+Failed to seed student student_47: This citizen identification already exists.
+Failed to seed student student_28: This citizen identification already exists.
+Failed to seed student student_58: This citizen identification already exists.
+Failed to seed student student_86: This citizen identification already exists.
+Failed to seed student student_71: This citizen identification already exists.
+Failed to seed student student_82: This citizen identification already exists.
+Failed to seed student student_51: This citizen identification already exists.
+Failed to seed student student_75: This citizen identification already exists.
+Failed to seed student student_35: This citizen identification already exists.
+Failed to seed student student_85: This citizen identification already exists.
+Failed to seed student student_21: This citizen identification already exists.
+Failed to seed student student_95: This citizen identification already exists.
+Failed to seed student student_79: This citizen identification already exists.
+Failed to seed student student_61: This citizen identification already exists.
+Failed to seed student student_3: This citizen identification already exists.
+Failed to seed student student_63: This citizen identification already exists.
+Failed to seed student student_89: This citizen identification already exists.
+Failed to seed student student_67: This citizen identification already exists.
+Failed to seed student student_23: This citizen identification already exists.
+Failed to seed student student_19: This citizen identification already exists.
+Failed to seed student student_30: This citizen identification already exists.
+Failed to seed student student_72: This citizen identification already exists.
 Failed to seed student student_13: This citizen identification already exists.
-Failed to seed student student_37: This citizen identification already exists.
-Failed to seed teacher Teacher1: This citizen identification already exists.
-Failed to seed teacher Teacher13: This citizen identification already exists.
-Failed to seed teacher Teacher14: This citizen identification already exists.
-Failed to seed teacher Teacher22: This citizen identification already exists.
-Failed to seed teacher Teacher48: This citizen identification already exists.
-Failed to seed teacher Teacher47: This citizen identification already exists.
-Failed to seed teacher Teacher15: This citizen identification already exists.
-Failed to seed teacher Teacher60: This citizen identification already exists.
-Failed to seed teacher Teacher28: This citizen identification already exists.
-Failed to seed teacher Teacher27: This citizen identification already exists.
-Failed to seed teacher Teacher7: This citizen identification already exists.
-Failed to seed teacher Teacher34: This citizen identification already exists.
-Failed to seed teacher Teacher42: This citizen identification already exists.
-Failed to seed teacher Teacher19: This citizen identification already exists.
-Failed to seed teacher Teacher24: This citizen identification already exists.
-Failed to seed teacher Teacher46: This citizen identification already exists.
-Failed to seed teacher Teacher5: This citizen identification already exists.
-Failed to seed teacher Teacher20: This citizen identification already exists.
-Failed to seed teacher Teacher2: This citizen identification already exists.
-Failed to seed teacher Teacher25: This citizen identification already exists.
-Failed to seed teacher Teacher53: This citizen identification already exists.
-Failed to seed teacher Teacher31: This citizen identification already exists.
-Failed to seed teacher Teacher4: This citizen identification already exists.
-Failed to seed teacher Teacher11: This citizen identification already exists.
-Failed to seed teacher Teacher6: This citizen identification already exists.
-Failed to seed teacher Teacher12: This citizen identification already exists.
-Failed to seed teacher Teacher41: This citizen identification already exists.
-Failed to seed teacher Teacher39: This citizen identification already exists.
-Failed to seed teacher Teacher52: This citizen identification already exists.
-Failed to seed teacher Teacher36: This citizen identification already exists.
-Failed to seed teacher Teacher3: This citizen identification already exists.
-Failed to seed teacher Teacher54: This citizen identification already exists.
-Failed to seed teacher Teacher21: This citizen identification already exists.
-Failed to seed teacher Teacher43: This citizen identification already exists.
-Failed to seed teacher Teacher58: This citizen identification already exists.
-Failed to seed teacher Teacher49: This citizen identification already exists.
-Failed to seed teacher Teacher44: This citizen identification already exists.
-Failed to seed teacher Teacher45: This citizen identification already exists.
-Failed to seed teacher Teacher50: This citizen identification already exists.
+Failed to seed student student_41: This citizen identification already exists.
+Failed to seed student student_11: This citizen identification already exists.
+Failed to seed student student_76: This citizen identification already exists.
+Failed to seed student student_1: This citizen identification already exists.
+Failed to seed student student_80: This citizen identification already exists.
+Failed to seed student student_57: This citizen identification already exists.
+Failed to seed student student_96: This citizen identification already exists.
+Failed to seed student student_40: This citizen identification already exists.
+Failed to seed student student_44: This citizen identification already exists.
+Failed to seed student student_17: This citizen identification already exists.
+Failed to seed student student_2: This citizen identification already exists.
+Failed to seed student student_26: This citizen identification already exists.
 Failed to seed teacher Teacher30: This citizen identification already exists.
 Failed to seed teacher Teacher40: This citizen identification already exists.
-Failed to seed teacher Teacher33: This citizen identification already exists.
-Failed to seed teacher Teacher37: This citizen identification already exists.
-Failed to seed teacher Teacher16: This citizen identification already exists.
-Failed to seed teacher Teacher29: This citizen identification already exists.
 Failed to seed teacher Teacher26: This citizen identification already exists.
-Failed to seed teacher Teacher17: This citizen identification already exists.
-Failed to seed teacher Teacher32: This citizen identification already exists.
-Failed to seed teacher Teacher55: This citizen identification already exists.
-Failed to seed teacher Teacher35: This citizen identification already exists.
-Failed to seed teacher Teacher57: This citizen identification already exists.
-Failed to seed teacher Teacher56: This citizen identification already exists.
+Failed to seed teacher Teacher29: This citizen identification already exists.
+Failed to seed teacher Teacher43: This citizen identification already exists.
+Failed to seed teacher Teacher4: This citizen identification already exists.
 Failed to seed teacher Teacher51: This citizen identification already exists.
-Failed to seed teacher Teacher23: This citizen identification already exists.
-Failed to seed teacher Teacher8: This citizen identification already exists.
+Failed to seed teacher Teacher20: This citizen identification already exists.
+Failed to seed teacher Teacher58: This citizen identification already exists.
+Failed to seed teacher Teacher44: This citizen identification already exists.
+Failed to seed teacher Teacher50: This citizen identification already exists.
 Failed to seed teacher Teacher38: This citizen identification already exists.
-Failed to seed teacher Teacher9: This citizen identification already exists.
-Failed to seed teacher Teacher18: This citizen identification already exists.
-Failed to seed teacher Teacher59: This citizen identification already exists.
+Failed to seed teacher Teacher11: This citizen identification already exists.
+Failed to seed teacher Teacher25: This citizen identification already exists.
+Failed to seed teacher Teacher33: This citizen identification already exists.
+Failed to seed teacher Teacher35: This citizen identification already exists.
+Failed to seed teacher Teacher2: This citizen identification already exists.
+Failed to seed teacher Teacher32: This citizen identification already exists.
 Failed to seed teacher Teacher10: This citizen identification already exists.
-Failed to seed admin Admin10: This citizen identification already exists.
-Failed to seed admin Admin3: This citizen identification already exists.
-Failed to seed admin Admin7: This citizen identification already exists.
-Failed to seed admin Admin8: This citizen identification already exists.
-Failed to seed admin Admin1: This citizen identification already exists.
+Failed to seed teacher Teacher36: This citizen identification already exists.
+Failed to seed teacher Teacher3: This citizen identification already exists.
+Failed to seed teacher Teacher45: This citizen identification already exists.
+Failed to seed teacher Teacher1: This citizen identification already exists.
+Failed to seed teacher Teacher52: This citizen identification already exists.
+Failed to seed teacher Teacher6: This citizen identification already exists.
+Failed to seed teacher Teacher18: This citizen identification already exists.
+Failed to seed teacher Teacher60: This citizen identification already exists.
+Failed to seed teacher Teacher7: This citizen identification already exists.
+Failed to seed teacher Teacher19: This citizen identification already exists.
+Failed to seed teacher Teacher8: This citizen identification already exists.
+Failed to seed teacher Teacher12: This citizen identification already exists.
+Failed to seed teacher Teacher27: This citizen identification already exists.
+Failed to seed teacher Teacher24: This citizen identification already exists.
+Failed to seed teacher Teacher22: This citizen identification already exists.
+Failed to seed teacher Teacher9: This citizen identification already exists.
+Failed to seed teacher Teacher14: This citizen identification already exists.
+Failed to seed teacher Teacher46: This citizen identification already exists.
+Failed to seed teacher Teacher23: This citizen identification already exists.
+Failed to seed teacher Teacher13: This citizen identification already exists.
+Failed to seed teacher Teacher28: This citizen identification already exists.
+Failed to seed teacher Teacher34: This citizen identification already exists.
+Failed to seed teacher Teacher48: This citizen identification already exists.
+Failed to seed teacher Teacher57: This citizen identification already exists.
+Failed to seed teacher Teacher15: This citizen identification already exists.
+Failed to seed teacher Teacher42: This citizen identification already exists.
+Failed to seed teacher Teacher47: This citizen identification already exists.
+Failed to seed teacher Teacher39: This citizen identification already exists.
+Failed to seed teacher Teacher5: This citizen identification already exists.
+Failed to seed teacher Teacher41: This citizen identification already exists.
+Failed to seed teacher Teacher54: This citizen identification already exists.
+Failed to seed teacher Teacher17: This citizen identification already exists.
+Failed to seed teacher Teacher16: This citizen identification already exists.
+Failed to seed teacher Teacher55: This citizen identification already exists.
+Failed to seed teacher Teacher37: This citizen identification already exists.
+Failed to seed teacher Teacher59: This citizen identification already exists.
+Failed to seed teacher Teacher31: This citizen identification already exists.
+Failed to seed teacher Teacher21: This citizen identification already exists.
+Failed to seed teacher Teacher53: This citizen identification already exists.
+Failed to seed teacher Teacher56: This citizen identification already exists.
+Failed to seed teacher Teacher49: This citizen identification already exists.
 Failed to seed admin Admin6: This citizen identification already exists.
 Failed to seed admin Admin2: This citizen identification already exists.
 Failed to seed admin Admin9: This citizen identification already exists.
-Failed to seed admin Admin5: This citizen identification already exists.
 Failed to seed admin Admin4: This citizen identification already exists.
+Failed to seed admin Admin8: This citizen identification already exists.
+Failed to seed admin Admin3: This citizen identification already exists.
+Failed to seed admin Admin5: This citizen identification already exists.
+Failed to seed admin Admin7: This citizen identification already exists.
+Failed to seed admin Admin10: This citizen identification already exists.
+Failed to seed admin Admin1: This citizen identification already exists.
 WARNING: A Java agent has been loaded dynamically (C:\Users\Hii\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
 WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
